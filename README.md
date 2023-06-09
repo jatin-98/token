@@ -100,7 +100,7 @@ class Token
     const STORE_TOKENS = true;
 ```
 
-5. How to use token authorization.
+5. How to utilize token authorization.
 
 ```shell
 <?php
