@@ -9,8 +9,8 @@ This repository contains a PHP-based token management system for generating, enc
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-<!-- - [Contributing](#contributing)
-- [License](#license) -->
+<!-- - [Contributing](#contributing) -->
+- [License](#license)
 
 ## Features
 
@@ -42,12 +42,22 @@ This repository contains a PHP-based token management system for generating, enc
 
 <?php
 
-require_once 'path/to/TokenMiddleware.php';
+   require_once 'path/to/TokenMiddleware.php';
 
-use Jatin\TokenMiddleware;
+   use Jatin\TokenMiddleware;
 
-$email = 'your-email@email.com';
-$token = Token::generateToken($email);
+   $email = 'your-email@email.com';
+   $token = Token::generateToken($email);
 
-echo "Your token - $token";
+   echo "Your token - $token";
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+- `[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/token-management-system/blob/main/LICENSE)` - Replace `your-username` with your GitHub username and `token-management-system` with the name of your repository.
+- `git clone https://github.com/your-username/token-management-system.git` - Replace `your-username` with your GitHub username and `token-management-system` with the name of your repository.
+- `require_once 'path/to/TokenMiddleware.php';` - Replace `'path/to/TokenMiddleware.php'` with the actual path to the `TokenMiddleware.php` file in your project.
+
 
