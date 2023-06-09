@@ -5,7 +5,7 @@ namespace Jatin;
 class Token
 {
 
-    const EXPIRY_TIME = 3600;
+    const EXPIRY_TIME = strtotime('+7 days');
     const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y';
     const FILE_PATH = __DIR__ . '/../storage/__tokens/';
     const STORE_TOKENS = true;
