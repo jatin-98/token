@@ -42,7 +42,7 @@ This repository contains a PHP-based token management system for generating, enc
 
 <?php
 
-   require_once 'path/to/TokenMiddleware.php';
+   require_once 'path/to/Token.php';
 
    use Jatin\TokenMiddleware;
    
@@ -57,7 +57,7 @@ This repository contains a PHP-based token management system for generating, enc
 
    require_once 'path/to/TokenMiddleware.php';
 
-   use Jatin\TokenMiddleware;
+   use Jatin\Token;
    
    $email = 'your-email@email.com';
    $token = Token::generateToken($email);
@@ -105,11 +105,11 @@ class Token
 ```shell
 <?php
 
-namespace Jatin;
+require_once 'path/to/TokenMiddleware.php';
+require_once 'path/to/Token.php';
 
-class Token
-{
-
+use Jatin\TokenMiddleware;
+use Jatin\Token;
 
 $token = Token::generateToken($email);
 
