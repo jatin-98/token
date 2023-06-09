@@ -100,6 +100,31 @@ class Token
     const STORE_TOKENS = true;
 ```
 
+5. How to use token authorization.
+
+```shell
+<?php
+
+namespace Jatin;
+
+class Token
+{
+
+
+$token = Token::generateToken($email);
+
+$result = TokenMiddleware::checkToken($token);
+
+if ($result === true) {
+    // Token is valid
+    // Continue with the application logic
+} else {
+    // Token is invalid or expired
+    // Handle the error or redirect the user
+}
+
+```
+
 <!-- ## License
 
 This project is licensed under the MIT License.
