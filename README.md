@@ -48,6 +48,8 @@ This repository contains a PHP-based token management system for generating, enc
    
 ```
 
+
+
 2. use Token::generateToken('data') to generate token:
 
 ```shel 
