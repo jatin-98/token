@@ -55,7 +55,7 @@ This repository contains a PHP-based token management system for generating, enc
 ```shel 
 <?php
 
-   require_once 'path/to/TokenMiddleware.php';
+   require_once 'path/to/Token.php';
 
    use Jatin\Token;
    
@@ -122,6 +122,24 @@ if ($result === true) {
     // Token is invalid or expired
     // Handle the error or redirect the user
 }
+
+```
+6. Decoding a token
+
+```shel
+
+<?php
+
+   require_once 'path/to/Token.php';
+
+   use Jatin\Token;
+   
+   $email = 'your-email@email.com';
+   $token = Token::generateToken($email);
+   
+   $decodedToken = Jatin\Token::decode($token);
+   
+   echo "Decoded Token - $decodedToken";
 
 ```
 
