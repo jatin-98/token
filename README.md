@@ -34,7 +34,7 @@ This repository contains a PHP-based token management system for generating, enc
    ```shel 
    composer install
    
-## Before using, change the ENCRYPTION_DECRYPTION_KEY, by going inside src/Token.php
+To enhance security measures, please update the ENCRYPTION_DECRYPTION_KEY within the src/Token.php file before utilizing it.
 ```shell
 <?php
 
