@@ -36,7 +36,7 @@ This repository contains a PHP-based token management system for generating, enc
      
 ## Usage
 
-To enhance security measures, please update the ENCRYPTION_DECRYPTION_KEY within the src/Token.php file before utilizing it.
+1. To enhance security measures, please update the ENCRYPTION_DECRYPTION_KEY within the src/Token.php file before utilizing it.
 ```shell
 <?php
 
@@ -48,7 +48,7 @@ class Token
     const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y'; // replace this hash with your own hash.
 ```
 
-1. Include the necessary namespaces and require the relevant files in your PHP script:
+2. Include the necessary namespaces and require the relevant files in your PHP script:
 
 ```shel 
 
@@ -62,7 +62,7 @@ class Token
 
 
 
-2. use Token::generateToken('data') to generate token:
+3. use Token::generateToken('data') to generate token:
 
 ```shel 
 <?php
@@ -78,7 +78,7 @@ class Token
 ```
 
 
-3. To avoid storing tokens within your directory, simply set the value of STORE_TOKENS to false:
+4. To avoid storing tokens within your directory, simply set the value of STORE_TOKENS to false:
 
 ```shell
 <?php
@@ -96,7 +96,7 @@ class Token
 ```
 
 
-4. For changing the expiry date of tokens, go inside src/token.php:
+5. For changing the expiry date of tokens, go inside src/token.php:
 
 ```shel
 <?php
@@ -112,7 +112,7 @@ class Token
     const STORE_TOKENS = true;
 ```
 
-5. How to utilize token authorization.
+6. How to utilize token authorization.
 
 ```shell
 <?php
@@ -136,7 +136,7 @@ if ($result === true) {
 }
 
 ```
-6. Decoding a token
+7. Decoding a token
 
 ```shel
 
