@@ -34,6 +34,19 @@ This repository contains a PHP-based token management system for generating, enc
    ```shel 
    composer install
    
+## Before using, change the ENCRYPTION_DECRYPTION_KEY, by going inside src/Token.php
+```shell
+<?php
+
+namespace Jatin;
+
+class Token
+{
+
+    const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y'; // replace this hash with your own hash.
+ 
+```
+   
 ## Usage
 
 1. Include the necessary namespaces and require the relevant files in your PHP script:
