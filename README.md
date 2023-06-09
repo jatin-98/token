@@ -66,23 +66,7 @@ This repository contains a PHP-based token management system for generating, enc
 ```
 
 
-3. For changing the expiry date of tokens you can go inside src/token.php:
-
-```shel
-<?php
-
-namespace Jatin;
-
-class Token
-{
-
-    const EXPIRY_TIME = 3600; /* replace 3600 with your desired time in seconds */
-    const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y';
-    const FILE_PATH = __DIR__ . '/../storage/__tokens/';
-    const STORE_TOKENS = true;
-```
-
-4. If you do not want to store tokens inside your directory, change  STORE_TOKENS to false:
+3. If you do not want to store tokens inside your directory, change  STORE_TOKENS to false:
 
 ```shell
 <?php
@@ -97,6 +81,23 @@ class Token
     const FILE_PATH = __DIR__ . '/../storage/__tokens/';
     const STORE_TOKENS = true; /* change to false */
 
+```
+
+
+4. For changing the expiry date of tokens you can go inside src/token.php:
+
+```shel
+<?php
+
+namespace Jatin;
+
+class Token
+{
+
+    const EXPIRY_TIME = 3600; /* replace 3600 with your desired time in seconds */
+    const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y';
+    const FILE_PATH = __DIR__ . '/../storage/__tokens/';
+    const STORE_TOKENS = true;
 ```
 
 <!-- ## License
