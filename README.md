@@ -1,6 +1,6 @@
 # Token Management System
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jatin-98/token/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jatin-98/token)
 
 This repository contains a PHP-based token management system for generating, encoding, decoding, and managing tokens. The tokens can be used for various purposes, such as authentication, authorization, or token-based workflows.
 
