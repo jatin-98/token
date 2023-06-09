@@ -36,3 +36,18 @@ This repository contains a PHP-based token management system for generating, enc
    
 ## Usage
 
+1. Include the necessary namespaces and require the relevant files in your PHP script:
+
+```shel 
+
+<?php
+
+require_once 'path/to/TokenMiddleware.php';
+
+use Jatin\TokenMiddleware;
+
+$email = 'your-email@email.com';
+$token = Token::generateToken($email);
+
+echo "Your token - $token";
+
