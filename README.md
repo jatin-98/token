@@ -66,7 +66,7 @@ This repository contains a PHP-based token management system for generating, enc
 ```
 
 
-3. If you do not want to store tokens inside your directory, change  STORE_TOKENS to false:
+3. To avoid storing tokens within your directory, simply set the value of STORE_TOKENS to false:
 
 ```shell
 <?php
