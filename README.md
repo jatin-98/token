@@ -24,7 +24,7 @@ This repository contains a PHP-based token management system for generating, enc
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/token-management-system.git
+   git clone https://github.com/jatin-98/token.git
 
 2. Navigate to the project directory:
    ```shell 
