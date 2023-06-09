@@ -1,0 +1,16 @@
+{
+    "name": "jatin/token",
+    "description": "A basic token for authentication using AES encryption and decryption with key",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Jatin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jatinchauhan",
+            "email": "enme1704@gmail.com"
+        }
+    ]
+}
