@@ -33,7 +33,9 @@ This repository contains a PHP-based token management system for generating, enc
 3. install the dependencies:
    ```shel 
    composer install
-   
+     
+## Usage
+
 To enhance security measures, please update the ENCRYPTION_DECRYPTION_KEY within the src/Token.php file before utilizing it.
 ```shell
 <?php
@@ -44,10 +46,7 @@ class Token
 {
 
     const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y'; // replace this hash with your own hash.
- 
 ```
-   
-## Usage
 
 1. Include the necessary namespaces and require the relevant files in your PHP script:
 
