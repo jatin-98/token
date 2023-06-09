@@ -9,8 +9,8 @@ This repository contains a PHP-based token management system for generating, enc
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- - [Contributing](#contributing)
+- [License](#license) -->
 
 ## Features
 
