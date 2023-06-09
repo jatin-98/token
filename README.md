@@ -76,7 +76,7 @@ namespace Jatin;
 class Token
 {
 
-    const EXPIRY_TIME = 3600; 
+    const EXPIRY_TIME = strtotime('+7 days'); 
     const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y';
     const FILE_PATH = __DIR__ . '/../storage/__tokens/';
     const STORE_TOKENS = true; /* change to false */
@@ -84,7 +84,7 @@ class Token
 ```
 
 
-4. For changing the expiry date of tokens you can go inside src/token.php:
+4. For changing the expiry date of tokens, go inside src/token.php:
 
 ```shel
 <?php
@@ -94,7 +94,7 @@ namespace Jatin;
 class Token
 {
 
-    const EXPIRY_TIME = 3600; /* replace 3600 with your desired time in seconds */
+    const EXPIRY_TIME = strtotime('+7 days'); /* replace +7 days to desired days */
     const ENCRYPTION_DECRYPTION_KEY = '$2y$10$RoelBPwW0UvtTkX.5u78u4p9C.RtDgcyJAIVPoCyw417IUoHAu3y';
     const FILE_PATH = __DIR__ . '/../storage/__tokens/';
     const STORE_TOKENS = true;
