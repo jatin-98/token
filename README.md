@@ -1,6 +1,6 @@
 # Token Management System
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/token-management-system/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jatin-98/token/blob/main/LICENSE)
 
 This repository contains a PHP-based token management system for generating, encoding, decoding, and managing tokens. The tokens can be used for various purposes, such as authentication, authorization, or token-based workflows.
 
@@ -10,7 +10,7 @@ This repository contains a PHP-based token management system for generating, enc
 - [Installation](#installation)
 - [Usage](#usage)
 <!-- - [Contributing](#contributing) -->
-- [License](#license)
+<!-- - [License](#license) -->
 
 ## Features
 
@@ -52,12 +52,10 @@ This repository contains a PHP-based token management system for generating, enc
    echo "Your token - $token";
 ```
 
-## License
+<!-- ## License
 
 This project is licensed under the MIT License.
 
 - `[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/token-management-system/blob/main/LICENSE)` - Replace `your-username` with your GitHub username and `token-management-system` with the name of your repository.
 - `git clone https://github.com/your-username/token-management-system.git` - Replace `your-username` with your GitHub username and `token-management-system` with the name of your repository.
-- `require_once 'path/to/TokenMiddleware.php';` - Replace `'path/to/TokenMiddleware.php'` with the actual path to the `TokenMiddleware.php` file in your project.
-
-
+- `require_once 'path/to/TokenMiddleware.php';` - Replace `'path/to/TokenMiddleware.php'` with the actual path to the `TokenMiddleware.php` file in your project.-->
