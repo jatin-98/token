@@ -63,6 +63,7 @@ This repository contains a PHP-based token management system for generating, enc
    $token = Token::generateToken($email);
 
    echo "Your token - $token";
+```
 
 <!-- ## License
 
