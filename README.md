@@ -31,7 +31,8 @@ This repository contains a PHP-based token management system for generating, enc
    cd token-management-system
 
 3. install the dependencies:
-   ```shel composer install
+   ```shel 
+   composer install
    
 ## Usage
 
