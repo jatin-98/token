@@ -25,3 +25,13 @@ This repository contains a PHP-based token management system for generating, enc
 
    ```shell
    git clone https://github.com/your-username/token-management-system.git
+
+2. Navigate to the project directory:
+   ```shell 
+   cd token-management-system
+
+3. install the dependencies:
+   ```shel composer install
+   
+## Usage
+
